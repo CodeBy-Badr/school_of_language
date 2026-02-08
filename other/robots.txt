@@ -1,0 +1,26 @@
+# Robots.txt for École des Langues Website
+# https://www.langues-pro.com/robots.txt
+
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Disallow private areas
+Disallow: /php/logs.txt
+Disallow: /php/
+Disallow: /config.txt
+Disallow: /.
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.langues-pro.com/sitemap.xml
+
+# Crawl delay (optional - adjust based on server capacity)
+Crawl-delay: 1

@@ -1,0 +1,143 @@
+# Configuration File for Language School Website
+# Edit this file to customize your website quickly
+
+# ===========================
+# SCHOOL INFORMATION
+# ===========================
+SCHOOL_NAME = "École des Langues"
+SCHOOL_PHONE = "+33 (0)1 23 45 67 89"
+SCHOOL_EMAIL = "contact@langues-pro.com"
+SCHOOL_ADDRESS = "123 Rue de la Paix, 75000 Paris, France"
+SCHOOL_HOURS = "Lun-Ven: 9h-18h, Sam: 10h-16h"
+SCHOOL_WEBSITE = "https://www.langues-pro.com"
+
+# ===========================
+# COLORS (HEX FORMAT)
+# ===========================
+PRIMARY_COLOR = "#2563eb"          # Blue
+SECONDARY_COLOR = "#1e40af"        # Dark Blue
+ACCENT_COLOR = "#f59e0b"           # Gold/Orange
+LIGHT_BG = "#f3f4f6"               # Light Gray
+DARK_TEXT = "#1f2937"              # Dark Gray/Black
+LIGHT_TEXT = "#6b7280"             # Medium Gray
+
+# ===========================
+# STATISTICS
+# ===========================
+TOTAL_STUDENTS = "5000+"
+LANGUAGES_TAUGHT = "15+"
+SATISFACTION_RATE = "98%"
+
+# ===========================
+# SOCIAL MEDIA
+# ===========================
+FACEBOOK_URL = "https://facebook.com/languspro"
+TWITTER_URL = "https://twitter.com/languspro"
+INSTAGRAM_URL = "https://instagram.com/languspro"
+LINKEDIN_URL = "https://linkedin.com/company/languspro"
+
+# ===========================
+# EMAIL SETTINGS
+# ===========================
+ADMIN_EMAIL = "contact@langues-pro.com"
+NO_REPLY_EMAIL = "noreply@langues-pro.com"
+SUPPORT_EMAIL = "support@langues-pro.com"
+
+# ===========================
+# LANGUAGES OFFERED
+# ===========================
+LANGUAGES = [
+    "Anglais",
+    "Français",
+    "Espagnol",
+    "Allemand",
+    "Italien",
+    "Portugais",
+    "Néerlandais",
+    "Russe",
+    "Chinois",
+    "Japonais",
+    "Coréen",
+    "Suédois",
+    "Polonais",
+    "Turc",
+    "Arabe"
+]
+
+# ===========================
+# COURSE LEVELS
+# ===========================
+LEVELS = [
+    "Débutant",
+    "Élémentaire",
+    "Intermédiaire",
+    "Intermédiaire Supérieur",
+    "Avancé",
+    "Maîtrise"
+]
+
+# ===========================
+# COURSE CATEGORIES
+# ===========================
+COURSE_TYPES = [
+    "Cours en Ligne",
+    "Cours Particuliers",
+    "Conversation Live",
+    "Immersion Totale",
+    "Préparation Examen",
+    "Français Affaires"
+]
+
+# ===========================
+# RATE LIMITING
+# ===========================
+MAX_FORMS_PER_MINUTE = 5
+MAX_FORMS_PER_HOUR = 50
+MAX_FORMS_PER_DAY = 500
+
+# ===========================
+# SPAM DETECTION KEYWORDS
+# ===========================
+SPAM_KEYWORDS = [
+    "viagra",
+    "casino",
+    "lottery",
+    "weight loss",
+    "bitcoin",
+    "click here",
+    "free money",
+    "work from home"
+]
+
+# ===========================
+# SEO & META INFO
+# ===========================
+SITE_TITLE = "École des Langues - Maîtrisez une Nouvelle Langue"
+SITE_DESCRIPTION = "Apprenez une nouvelle langue avec nos cours professionnels en ligne. 5000+ étudiants satisfaits. Cours particuliers, groupes, conversions."
+SITE_KEYWORDS = "école langue, cours langue, apprendre langue, formation linguistique"
+CANONICAL_URL = "https://www.langues-pro.com/"
+
+# ===========================
+# GOOGLE ANALYTICS
+# ===========================
+GOOGLE_ANALYTICS_ID = "G-XXXXXXXXXX"
+
+# ===========================
+# CONTACT FORM SETTINGS
+# ===========================
+ENABLE_CONTACT_FORM = true
+SEND_CONFIRMATION_EMAIL = true
+SEND_ADMIN_NOTIFICATION = true
+REQUIRE_PHONE = false
+STORE_SUBMISSIONS = true
+
+# ===========================
+# BUSINESS HOURS
+# ===========================
+MONDAY = "09:00-18:00"
+TUESDAY = "09:00-18:00"
+WEDNESDAY = "09:00-18:00"
+THURSDAY = "09:00-18:00"
+FRIDAY = "09:00-18:00"
+SATURDAY = "10:00-16:00"
+SUNDAY = "Fermé"
