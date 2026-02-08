@@ -207,8 +207,8 @@ $admin_message = <<<EOT
             <hr style="margin: 20px 0; border: none; border-top: 1px solid #ddd;">
             <div style="font-size: 12px; color: #999;">
                 <p><strong>Informations supplémentaires:</strong></p>
-                <p>IP: {$_SERVER['REMOTE_ADDR']}</p>
-                <p>Date: " . date('Y-m-d H:i:s') . "</p>
+                <p>$user_ip = $_SERVER['REMOTE_ADDR'];: $_SERVER['REMOTE_ADDR']</p>
+                <p>$current_date = date('d/m/Y H:i:s');</p>
             </div>
         </div>
         <div class="footer">
@@ -274,8 +274,7 @@ EOT;
 // Email headers
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type: text/html; charset=UTF-8" . "\r\n";
-$headers .= "From: " . $email . "\r\n";
-$headers .= "Reply-To: " . $email . "\r\n";
+$headers .= "From: " . $SCHOOL_NAME . " <noreply@langues-pro.com>\r\n";$headers .= "Reply-To: " . $email . "\r\n";
 $headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";
 
 try {
